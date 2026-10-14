@@ -1,0 +1,19 @@
+# Direct dependencies for shop-sales-insights.
+# Versions are pinned exactly (==) so the app can be rebuilt identically.
+# Upgrade deliberately: change a version here, reinstall, then run the tests.
+# Last verified: 14 Oct 2026 on Python 3.13.16
+
+# User interface and dashboards
+streamlit==1.65.0
+
+# Data analysis and aggregation
+pandas==3.0.6
+
+# Interactive charts
+plotly==7.1.0
+
+# Excel (.xlsx) export engine used by pandas
+openpyxl==3.1.5
+
+# Automated testing
+pytest==9.1.1
