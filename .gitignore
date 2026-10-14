@@ -1,0 +1,32 @@
+# ============================================================
+# PRIVATE BUSINESS DATA: must never be committed (public repo)
+# ============================================================
+data/
+backups/
+exports/
+
+# SQLite database files and their temporary side files, wherever they are
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Excel exports may contain customer data
+*.xlsx
+
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# ============================================================
+# Generated files: rebuilt automatically, no value in history
+# ============================================================
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and OS clutter
+.vscode/
+Thumbs.db
+desktop.ini
