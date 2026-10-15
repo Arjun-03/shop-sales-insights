@@ -1,0 +1,11 @@
+# Streamlit settings for shop-sales-insights.
+# This file is safe to commit: it contains no secrets.
+
+[server]
+# Only accept connections from this computer, not from other
+# devices on the same Wi-Fi network.
+address = "localhost"
+
+[browser]
+# Do not send anonymous usage statistics to Streamlit's developers.
+gatherUsageStats = false
